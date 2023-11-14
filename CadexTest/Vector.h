@@ -8,6 +8,7 @@ struct Vector
 	Vector(double _x, double _y, double _z);
 	void normalize();
 	double lenght() const;
+	//Transforms a local coordinate system into a global
 	void transform(const Vector& x0Loc, const Vector& y0Loc, const Vector& z0Loc);
 };
 

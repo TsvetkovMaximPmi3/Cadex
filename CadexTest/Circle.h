@@ -4,6 +4,7 @@
 class Circle  : public Curve
 {
 	private:
+
 		double radius;
 		Vector centre;
 		Vector getPointInPlane(double param);

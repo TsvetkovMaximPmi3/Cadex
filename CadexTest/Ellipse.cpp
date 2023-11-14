@@ -52,5 +52,5 @@ double Ellipse::getRadiusY()
 
 double Ellipse::getRadius() const
 {
-	return radiusX + radiusY;
+	return (radiusX + radiusY)/2;
 }
